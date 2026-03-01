@@ -1,3 +1,18 @@
-.vs/VSWorkspaceState.json
-.vs/slnx.sqlite
-.vs/LiftTracker/v17/.suo
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Secrets / environment
+appsettings.Development.json
